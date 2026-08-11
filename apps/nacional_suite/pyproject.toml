@@ -1,0 +1,13 @@
+[project]
+name = "nacional_suite"
+authors = [
+    { name = "Nacional Carnes", email = "ti@nacionalcarnes.com.br" }
+]
+description = "Customizações Nacional Suite para Frappe/ERPNext/HRMS"
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = ["version"]
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
