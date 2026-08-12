@@ -1,0 +1,46 @@
+/* Nacional Suite Custom Branding Styling */
+
+/* Override Frappe Desk app icon wrapper background */
+.app-icon,
+.app-icon-box,
+.app-logo-box,
+div[data-app-name="nacional_suite"] .app-icon,
+a[data-app-name="nacional_suite"] .app-icon {
+    background-color: transparent !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.app-icon img,
+.app-icon svg {
+    background-color: transparent !important;
+    border-radius: 16px;
+    object-fit: contain;
+}
+
+.navbar-brand img,
+.app-logo,
+.navbar-home img {
+    max-height: 36px !important;
+    object-fit: contain;
+    background-color: transparent !important;
+}
+
+.login-content .page-card-head img,
+.login-content .auth-logo img {
+    max-height: 80px !important;
+    object-fit: contain;
+    background-color: transparent !important;
+}
+
+.splash-logo img {
+    max-height: 100px !important;
+    object-fit: contain;
+    background-color: transparent !important;
+}
+
+.navbar-brand span {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}

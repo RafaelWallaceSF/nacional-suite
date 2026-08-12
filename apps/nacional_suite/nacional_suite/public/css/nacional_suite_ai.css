@@ -1,0 +1,176 @@
+/* Nacional Suite AI Assistant Styles */
+.nacional-ai-fab {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 99999;
+    background: linear-gradient(135deg, #0b2545 0%, #134074 100%);
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 4px 16px rgba(11, 37, 69, 0.35);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    font-family: inherit;
+    font-weight: 600;
+}
+
+.nacional-ai-fab:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(11, 37, 69, 0.5);
+}
+
+.nacional-ai-fab-icon {
+    font-size: 18px;
+}
+
+.nacional-ai-chat-box {
+    position: fixed;
+    bottom: 84px;
+    right: 24px;
+    z-index: 99999;
+    width: 380px;
+    max-width: calc(100vw - 32px);
+    height: 520px;
+    max-height: calc(100vh - 120px);
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.22);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    font-family: inherit;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.nacional-ai-chat-box.hidden {
+    display: none !important;
+}
+
+.nacional-ai-header {
+    background: #0b2545;
+    color: #ffffff;
+    padding: 14px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nacional-ai-header-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nacional-ai-avatar {
+    font-size: 22px;
+}
+
+.nacional-ai-status {
+    font-size: 11px;
+    opacity: 0.8;
+}
+
+.nacional-ai-close {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+    line-height: 1;
+    opacity: 0.8;
+}
+.nacional-ai-close:hover { opacity: 1; }
+
+.nacional-ai-messages {
+    flex: 1;
+    padding: 16px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background: #f8f9fa;
+}
+
+.nacional-ai-msg {
+    max-width: 85%;
+    padding: 10px 14px;
+    border-radius: 14px;
+    font-size: 13px;
+    line-height: 1.45;
+    word-break: break-word;
+}
+
+.nacional-ai-msg.bot {
+    background: #ffffff;
+    color: #212529;
+    align-self: flex-start;
+    border: 1px solid #e9ecef;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+}
+
+.nacional-ai-msg.user {
+    background: #134074;
+    color: #ffffff;
+    align-self: flex-end;
+}
+
+.nacional-ai-chips {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 8px;
+}
+
+.nacional-ai-chip {
+    background: #ffffff;
+    border: 1px solid #134074;
+    color: #134074;
+    padding: 8px 12px;
+    border-radius: 12px;
+    font-size: 12px;
+    text-align: left;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease;
+    font-weight: 500;
+}
+
+.nacional-ai-chip:hover {
+    background: #134074;
+    color: #ffffff;
+}
+
+.nacional-ai-footer {
+    padding: 12px;
+    background: #ffffff;
+    border-top: 1px solid #e9ecef;
+    display: flex;
+    gap: 8px;
+}
+
+.nacional-ai-footer input {
+    flex: 1;
+    border: 1px solid #ced4da;
+    border-radius: 20px;
+    padding: 8px 14px;
+    font-size: 13px;
+    outline: none;
+}
+
+.nacional-ai-footer input:focus {
+    border-color: #134074;
+}
+
+.nacional-ai-footer button {
+    background: #134074;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
